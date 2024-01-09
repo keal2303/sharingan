@@ -1,6 +1,5 @@
 import keyboard
 import logging
-from daemon import DaemonContext
 
 
 def main():
@@ -23,5 +22,4 @@ def main():
 
 
 if __name__ == "__main__":
-    with DaemonContext():
-        main()
+    main()
